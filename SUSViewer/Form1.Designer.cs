@@ -68,7 +68,6 @@
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(869, 527);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
             // 
             // Difficulty
             // 
@@ -138,7 +137,7 @@
             this.開くOToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.開くOToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.開くOToolStripMenuItem.Text = "SUSディレクトリを開く(&O)";
-            this.開くOToolStripMenuItem.Click += new System.EventHandler(this.開くOToolStripMenuItem_Click);
+            this.開くOToolStripMenuItem.Click += new System.EventHandler(this.OpenToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
@@ -150,7 +149,7 @@
             this.名前を付けて保存AToolStripMenuItem.Name = "名前を付けて保存AToolStripMenuItem";
             this.名前を付けて保存AToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.名前を付けて保存AToolStripMenuItem.Text = "CSVエクスポート";
-            this.名前を付けて保存AToolStripMenuItem.Click += new System.EventHandler(this.名前を付けて保存AToolStripMenuItem_Click);
+            this.名前を付けて保存AToolStripMenuItem.Click += new System.EventHandler(this.CSVSaveAToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -162,7 +161,7 @@
             this.終了XToolStripMenuItem.Name = "終了XToolStripMenuItem";
             this.終了XToolStripMenuItem.Size = new System.Drawing.Size(231, 22);
             this.終了XToolStripMenuItem.Text = "終了(&X)";
-            this.終了XToolStripMenuItem.Click += new System.EventHandler(this.終了XToolStripMenuItem_Click);
+            this.終了XToolStripMenuItem.Click += new System.EventHandler(this.ExitXToolStripMenuItem_Click);
             // 
             // MenuItemUpdate
             // 
@@ -174,9 +173,9 @@
             // ヘルプHToolStripMenuItem
             // 
             this.ヘルプHToolStripMenuItem.Name = "ヘルプHToolStripMenuItem";
-            this.ヘルプHToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.ヘルプHToolStripMenuItem.Text = "ヘルプ(&H)";
-            this.ヘルプHToolStripMenuItem.Click += new System.EventHandler(this.ヘルプHToolStripMenuItem_Click);
+            this.ヘルプHToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
+            this.ヘルプHToolStripMenuItem.Text = "情報";
+            this.ヘルプHToolStripMenuItem.Click += new System.EventHandler(this.InfomationToolStripMenuItem_Click);
             // 
             // Form1
             // 
